@@ -1,0 +1,10 @@
+﻿src/pages/Home.tsx(1,1): error TS6192: All imports in import declaration are unused.
+src/pages/Home.tsx(1,10): error TS2305: Module '"react-router-dom"' has no exported member 'ArrowRight'.
+src/pages/Home.tsx(1,22): error TS2305: Module '"react-router-dom"' has no exported member 'Download'.
+src/pages/Home.tsx(1,32): error TS2305: Module '"react-router-dom"' has no exported member 'Github'.
+src/pages/Home.tsx(1,40): error TS2305: Module '"react-router-dom"' has no exported member 'Linkedin'.
+src/pages/Home.tsx(1,50): error TS2305: Module '"react-router-dom"' has no exported member 'Mail'.
+src/pages/Projects.tsx(1,18): error TS6133: 'ExternalLink' is declared but its value is never read.
+src/pages/Projects.tsx(1,32): error TS2305: Module '"lucide-react"' has no exported member 'CodeBranch'.
+src/pages/Projects.tsx(1,44): error TS6133: 'MapPin' is declared but its value is never read.
+src/pages/Projects.tsx(1,52): error TS6133: 'Map' is declared but its value is never read.

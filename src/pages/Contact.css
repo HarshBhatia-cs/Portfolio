@@ -1,0 +1,157 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    transition: transform var(--transition-fast);
+}
+
+.contact-card:hover {
+    transform: translateX(10px);
+}
+
+.contact-icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contact-icon {
+    color: var(--accent-primary);
+}
+
+.contact-details h3 {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.contact-details p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.social-links {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social-links p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.linkedin-btn {
+    width: 100%;
+    justify-content: center;
+}
+
+/* Visual Mock Form */
+.contact-visual {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decorative-form {
+    padding: 3rem;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.form-header {
+    margin-bottom: 2rem;
+}
+
+.form-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-header p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.mock-input {
+    margin-bottom: 1.5rem;
+}
+
+.mock-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.mock-field {
+    width: 100%;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+}
+
+.mock-field.area {
+    height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contact-orb {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--accent-secondary);
+    width: 400px;
+    height: 400px;
+    animation: pulse 6s infinite alternate;
+}
+
+@media (max-width: 992px) {
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .decorative-form {
+        padding: 2rem 1.5rem;
+    }
+
+    .contact-card {
+        padding: 1.25rem;
+    }
+}
