@@ -30,7 +30,7 @@ const About = () => {
                             </div>
                             <div className="touch-item">
                                 <Activity className="touch-icon" />
-                                <span>Big F1 fan⚡</span>
+                                <span>Big F1 fan</span>
                             </div>
                         </div>
                     </div>
