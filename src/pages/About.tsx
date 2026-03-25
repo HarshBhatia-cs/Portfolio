@@ -28,6 +28,10 @@ const About = () => {
                                 <Activity className="touch-icon" />
                                 <span>Love playing & watching football</span>
                             </div>
+                            <div className="touch-item">
+                                <Activity className="touch-icon" />
+                                <span>Big F1 fan⚡</span>
+                            </div>
                         </div>
                     </div>
 
