@@ -13,7 +13,7 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text fade-in-up" style={{ animationDelay: '0.2s' }}>
                         <p className="lead-text">
-                            I am a 20-year-old developer passionate about creating meaningful digital experiences.
+                            I am a 21-year-old developer passionate about creating meaningful digital experiences.
                         </p>
                         <p className="body-text">
                             Currently in my 6th semester pursuing Computer Science Engineering from MRIIRS, Faridabad. Technology excites me, and I am always in awe of the change it drives in the world around us.
